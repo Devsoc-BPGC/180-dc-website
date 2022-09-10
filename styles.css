@@ -6,30 +6,61 @@ body{
 
 .landing-page{
     background-image: url("assets/180DC_Background.png");
-    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+}
+
+.inner-landing-page{
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    backdrop-filter: blur(2px);
 }
 
 .logo{
-    padding-top: 3%;
-    width: 25%;
+    width: 28%;
 }
 
 h2{
     color: lightgreen;
+    padding-top: 2%;
+    font-size: 1.8rem;
 }
 
 .title{
     color: white;
 }
 
+.signing-off-page{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+.sgn-title{
+    color: white;
+    font-size: 2.2rem;
+    padding-top: 2%;
+    font-family: 'Combo', cursive;
+}
+
+.coco-img{
+    width: 40%;
+}
+
+p{
+    color: white;
+}
+
 @media(max-width:600px) {
     .logo{
         width:80%;
+    }
+    .coco-img{
+        width: 80%;
     }
 }
