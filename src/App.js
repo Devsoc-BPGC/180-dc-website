@@ -1,8 +1,9 @@
 import './App.css';
+import FrontPage from './components/FrontPage/FrontPage';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <FrontPage />
   );
 }
 

@@ -1,0 +1,9 @@
+.front-page{
+    background-image: url('../../assets/180DC_Background.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
