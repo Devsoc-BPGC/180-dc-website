@@ -1,0 +1,36 @@
+.about-us{
+    display: flex;
+    margin: 5% 0;
+    padding: 2% 0;
+    height: 100vh;
+    align-items: stretch;
+    background-color: lightgray;   
+}
+.cards{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 3px solid lightgreen;
+    padding: 0 1%;
+    max-width: 50%;
+    justify-content: space-around;
+}
+.description{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2%;
+    max-width: 50%;
+}
+.card{
+    display: flex;
+    height: 20%;
+    width: 60%;
+    background-color: lightgreen;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    border-radius: 10px;
+}

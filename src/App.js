@@ -1,9 +1,14 @@
+import React from 'react';
 import './App.css';
+import AboutUs from './components/AboutUs/AboutUs';
 import FrontPage from './components/FrontPage/FrontPage';
 
 function App() {
   return (
-    <FrontPage />
+    <React.Fragment>
+      <FrontPage />
+      <AboutUs />
+    </React.Fragment>
   );
 }
 
