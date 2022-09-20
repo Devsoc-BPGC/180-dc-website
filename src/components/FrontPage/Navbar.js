@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <React.Fragment>
-            {width>750 ? <NavbarDesktop /> : <NavbarMobile/>}
+            {width>800 ? <NavbarDesktop /> : <NavbarMobile/>}
         </React.Fragment>
     );
 }

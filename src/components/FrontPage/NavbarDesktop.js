@@ -21,14 +21,24 @@ const NavbarDesktop = () => {
             <h1 className={classes['nav-logo']}>LOGO</h1>
             <div className={classes['nav-items']}>
                 <div onMouseEnter={changeDrop} onMouseLeave={changeDrop} className={classes['nav-item']}>
-                    <h2>Home</h2>
+                    <h2 className={classes['nav-link']}>Home</h2>
                     {drop && <TestDropdown />}
                 </div>
-                <h2 className={classes['nav-item']}>About Us</h2>
-                <h2 className={classes['nav-item']}>Our Work</h2>
-                <h2 className={classes['nav-item']}>Work With Us</h2>
-                <h2 className={classes['nav-item']}>Blogs</h2>
-                <h2 className={classes['nav-item']}>Join Our Team</h2>
+                <div className={classes['nav-item']}>
+                    <h2 className={classes['nav-link']}>About Us</h2>
+                </div>
+                <div className={classes['nav-item']}>
+                    <h2 className={classes['nav-link']}>Our Work</h2>
+                </div>
+                <div className={classes['nav-item']}>
+                    <h2 className={classes['nav-link']}>Work With Us</h2>
+                </div>
+                <div className={classes['nav-item']}>
+                    <h2 className={classes['nav-link']}>Blogs</h2>
+                </div>
+                <div className={classes['nav-item']}>
+                    <h2 className={classes['nav-link']}>Join Our Team</h2>
+                </div>
             </div>
         </div>
     );

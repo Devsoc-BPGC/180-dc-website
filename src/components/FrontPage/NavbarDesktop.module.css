@@ -9,29 +9,37 @@
     color: white;
     padding: 0 3%;
     font-family: 'Raleway', sans-serif;
+    height: 20%;
 }
 .nav-items{
     display: flex;
-    flex-grow: 1;
+    width: 70%;
     align-items: stretch;
-    justify-content: end;
+    justify-content: right;
 }
 .nav-item{
-    padding: 1% 0;
-    margin-right: 2%;
+    flex-grow: 1;
 }
-
+.nav-link{
+    margin: 0;
+    padding: 0 2%;
+}
 .nav-item:hover{
     color: black;
     background-color: white;
 }
 
 .dropdown{
-    position: fixed;
-    z-index: 10;
+    position: absolute;
+    width: 10%;
     background-color: lightgreen;
     color: black;
     font-size: 0.8rem;
     text-align: center;
-    width: 15%;
+}
+
+@media(max-width:1150px){
+    .nav-items{
+        width: 90%;
+    }
 }
