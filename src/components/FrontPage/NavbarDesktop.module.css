@@ -23,6 +23,8 @@
 .nav-link{
     margin: 0;
     padding: 0 2%;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 .nav-item:hover{
     color: black;
@@ -31,7 +33,7 @@
 
 .dropdown{
     position: absolute;
-    width: 10%;
+    width: 20%;
     background-color: lightgreen;
     color: black;
     font-size: 0.8rem;
