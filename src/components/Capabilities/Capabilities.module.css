@@ -13,6 +13,9 @@
     margin-bottom: 2%;
     padding: 0 3%;
 }
+.capa-text h1{
+    font-size: 3rem;
+}
 .cards{
     display: flex;
     flex-direction: column;
@@ -44,4 +47,13 @@
 }
 .card li{
     margin-bottom: 2%;
+}
+@media (max-width:700px) {
+    .card-row{
+        flex-direction: column;
+    }
+    .card{
+        width: 90%;
+        margin-bottom: 2%;
+    }
 }
