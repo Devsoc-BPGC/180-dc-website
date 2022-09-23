@@ -3,6 +3,7 @@
     width: 300px;
     height: 200px;
     perspective: 1000px; 
+    margin-bottom: 4%;
   }
   
   .flip-card-inner {
@@ -36,7 +37,10 @@
 
   .flip-card-back {
     background-color: #7DCE13;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
     padding: 2% 4%;
+  }
+  .flip-card-back h1{
+    color: white;
   }
