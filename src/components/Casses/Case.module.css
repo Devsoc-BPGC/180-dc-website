@@ -1,0 +1,28 @@
+.case{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.case-title{
+    font-size: 2.5rem;
+    color: #7DCE13;
+}
+.case-inner{
+    display: flex;   
+    width: 100%;
+    align-items: center;
+    margin: 3% 0;
+    margin-top: 0;
+}
+.case-logo{
+    border-right: 5px solid lightgray;
+    padding: 0 3% 0 0;
+}
+.case-desc{
+    padding-left: 3%;
+}
+ @media (max-width:750px) {
+    .case{
+        width: 100%;
+    }
+ }
