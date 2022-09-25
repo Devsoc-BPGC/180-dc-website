@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.bg{
+    background-image: url("../../assets/CityWhiteBg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.contact-us{
+    background-color: rgb(100%, 100%, 100%,0.75);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding:  0 4%;
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    background-color: rgb(100%,100%,100%,0.5);
+}
+.contact h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.contact a{
+    text-decoration: none;
+    color: #7DCE13;
+}
+.get-in-touch{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    margin-left: 6%;
+    width: 40%;
+}
+.get-in-touch h1{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    background-color: darkgreen;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    color: white;
+}
+.form button{
+    background-color: darkgreen;
+    color: white;
+    margin-top: 10%;
+    width: 30%;
+    border: 0;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+@media (max-width:750px) {
+    .bg{
+        height:150%;
+    }
+    .contact-us{
+        flex-direction: column;
+        padding: 2% 1%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .get-in-touch{
+        margin-top: 3%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .form input{
+        width: 80%;
+    }
+}
