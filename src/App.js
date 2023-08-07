@@ -1,26 +1,25 @@
 import React from 'react';
 import './App.css';
-import AboutUs from './components/AboutUs/AboutUs';
-import Capabilities from './components/Capabilities/Capabilities';
-import Casses from './components/Casses/Casses';
-import Clients from './components/Clients/Clients';
-import ContactUs from './components/ContactUs/ContactUs';
-import FrontPage from './components/FrontPage/FrontPage';
-import Values from './components/Values/Values';
-import Welcome from './components/Welcome/Welcome';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './HomePage';
+import OurWork from './OurWork';
+import JoinOurTeam from './JoinOurTeam';
+import PageNotFound from './PageNotFound';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <React.Fragment>
-      <FrontPage />
-      <AboutUs />
-      <Welcome />
-      <Capabilities />
-      <Clients />
-      <Casses />
-      <Values />
-      <ContactUs />
-    </React.Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<HomePage />} />
+          <Route path="ourWork" element={<OurWork />} />
+          <Route path="joinOurTeam" element={<JoinOurTeam />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

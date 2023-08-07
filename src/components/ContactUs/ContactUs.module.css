@@ -22,6 +22,7 @@
     align-items: center;
     height: 80%;
     background-color: rgb(100%,100%,100%,0.5);
+    padding: 2%;
 }
 .contact h1{
     text-align: center;

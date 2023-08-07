@@ -7,12 +7,12 @@ const NavbarMobile = () => {
     const NavOpen = () => {
         return (
             <div className={classes['nav-items']}>
-                <h2 className={classes['nav-item']}>Home</h2>
-                <h2 className={classes['nav-item']}>About Us</h2>
-                <h2 className={classes['nav-item']}>Our Work</h2>
-                <h2 className={classes['nav-item']}>Work With Us</h2>
-                <h2 className={classes['nav-item']}>Blogs</h2>
-                <h2 className={classes['nav-item']}>Join Our Team</h2>
+                <a href="/#home" className={classes['nav-item']}>Home</a>
+                <a href="/#about-us" className={classes['nav-item']}>About Us</a>
+                <a href="/ourWork" className={classes['nav-item']}>Our Work</a>
+                <a href="/joinOurTeam" className={classes['nav-item']}>Join Our Team</a>
+                <a className={classes['nav-item']}>Case Library</a>
+                <a href="/#contact-us" className={classes['nav-item']}>Contact Us</a>
             </div>
         );
     }

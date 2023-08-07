@@ -10,7 +10,7 @@ const AboutUs = () => {
     const [ref4, inView4, entry4] = useInView({triggerOnce:true});
 
     return (
-        <div className={classes['about-us']}>
+        <div className={classes['about-us']} id="about-us">
             <div className={classes['cards']}>
                 <div className={classes.card + ' ' + ((inView1) && classes.show)} ref={ref1}>
                     <h2>Consultants</h2>

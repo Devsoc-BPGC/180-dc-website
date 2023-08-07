@@ -4,7 +4,7 @@ import Title from './Title';
 
 const FrontPage = () => {
     return (
-        <div className={styles['front-page']}>
+        <div className={styles['front-page']} id="home">
             <Navbar />
             <Title />
         </div>

@@ -12,7 +12,7 @@ const Capabilities = () => {
     const [ref6, inView6, entry6] = useInView({triggerOnce:true,threshold:1});
 
     return (
-        <div className={classes['capabilities']}>
+        <div className={classes['capabilities']} id="corec">
             <div className={classes['capa-text']}>
                 <h1>
                     Our Core Capabilities

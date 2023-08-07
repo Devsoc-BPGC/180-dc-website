@@ -1,0 +1,18 @@
+
+.mentors h1{
+    font-size: 4rem;
+}
+
+@media (max-width:700px) {
+    .mentors img{
+        height: 75vh;
+    }
+    .mentors{
+        height: 100vh;
+        width: 100vw;
+    }
+    .mentors h1{
+        margin-bottom: 3vh;
+        font-size: 3rem;
+    }
+}

@@ -3,16 +3,14 @@ import classes from './ContactUs.module.css'
 
 const ContactUs = () => {
     return (
-        <div className={classes.bg}>
-            <div className={classes['contact-us']}>
+        <div className={classes.bg} id="gitws">
+            <div className={classes['contact-us']} id="contact-us">
                 <div className={classes['contact']}>
                     <h1>Contact</h1>
                     <h2>
                         180Degrees Consulting,
                         <br />
-                        <br />
                         Bits Pilani Goa Campus,
-                        <br />
                         <br />
                         Verna,Goa,India.
                         <br />
